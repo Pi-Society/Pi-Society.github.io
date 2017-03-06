@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+$brand-color: #be1e45;
+
 header span.ribbon-inner {
   text-align: center;
 }
@@ -11,4 +13,10 @@ header span.ribbon-inner img {
   box-shadow: none;
   border: none;
   max-width: 250px;
+}
+
+
+header span.ribbon-inner {
+  background-color: $brand-color;
+  border: 4px solid darken( $brand-color, 10% );
 }
