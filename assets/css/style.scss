@@ -54,3 +54,8 @@ footer a {
 th {
   color: darken( $brand-color, 10% );
 }
+
+.highlight .gh {
+  background-color: $brand-color;
+  color: $brand-color-alt;
+}
