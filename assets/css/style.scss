@@ -20,3 +20,7 @@ header span.ribbon-inner {
   background-color: $brand-color;
   border: 4px solid darken( $brand-color, 10% );
 }
+
+section#downloads, div#no-downloads {
+  background: none;
+}
