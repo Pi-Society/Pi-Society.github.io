@@ -26,6 +26,10 @@ footer span.ribbon-inner {
   border: 2px solid darken( $brand-color, 10% );
 }
 
+footer span.ribbon-inner p {
+  background-color: $brand-color;
+}
+
 section#downloads, div#no-downloads,
 div#no-downloads span.inner {
   background: none;
