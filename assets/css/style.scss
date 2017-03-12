@@ -6,6 +6,8 @@
 $brand-color: #be1e45;
 $brand-color-alt: #f1ca48;
 
+a, a:hover { color: darken( $brand-color, 10% ); }
+
 header span.ribbon-inner {
   text-align: center;
 }
