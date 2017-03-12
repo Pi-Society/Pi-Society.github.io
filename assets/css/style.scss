@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 $brand-color: #be1e45;
+$brand-color-alt: #be1e45;
 
 header span.ribbon-inner {
   text-align: center;
@@ -28,6 +29,12 @@ footer span.ribbon-inner {
 
 footer span.ribbon-inner p {
   background-color: $brand-color;
+  padding: 16px 6px;
+  color: $brand-color-alt;
+}
+
+footer span.ribbon-inner a {
+  color: darken( $brand-color-alt, 10% );
 }
 
 section#downloads, div#no-downloads,
