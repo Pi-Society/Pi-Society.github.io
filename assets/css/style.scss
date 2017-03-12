@@ -13,6 +13,11 @@ div.shell {
   max-width: 900px;
 }
 
+header {
+  max-width: 100%;
+  padding: 20px 82px 0;
+}
+
 header span.ribbon-inner {
   text-align: center;
 }
@@ -21,6 +26,8 @@ header span.ribbon-inner img {
   box-shadow: none;
   border: none;
   max-width: 250px;
+  height: auto;
+  width: 100%;
 }
 
 
